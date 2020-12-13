@@ -25,7 +25,7 @@ $(document).on("click", "#restart_btn", function () {
 });
 
 const handlerClickCircleAdd = (id) => {
-    playSound("click_sound");
+    //playSound("click_sound");
     let color = sessionStorage.getItem("selectArray");
     let colorArray = new Array();
 
